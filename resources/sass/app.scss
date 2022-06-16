@@ -1,2 +1,57 @@
 //
 @use 'bootstrap';
+
+header{
+    nav{
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        background-color: rgb(59, 59, 59);
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        margin: 0 1rem;
+    }
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.show{
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title{
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.5rem;
+        padding: 1rem 0;
+        background-color: rgb(0, 191, 13);
+    }
+}
+
+.comic{
+    text-decoration: none;
+    color: black;
+    .title{
+        font-weight: bold;
+        font-size: 1.2rem;
+        min-height: 60px;
+    }
+    img{
+        width: 100%;
+    }
+
+    .price{
+        background-color: rgb(255, 82, 82);
+        color: white;
+    }
+}
